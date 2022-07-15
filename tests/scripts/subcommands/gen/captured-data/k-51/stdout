@@ -1,0 +1,12 @@
+generator           compile[OK]
+validator           compile[OK]
+solution            compile[OK]
+0-01                gen[FAIL]   val[SKIP]   sol[SKIP]   
+
+failed job: 0-01.gen
+exit-code: 1
+stdout:
+stderr:
+There must be exactly one argument for test generation command 'copy', but found 2 arguments.
+
+Terminated.
